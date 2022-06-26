@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_color"
+        android:weightSum="2"
+        android:orientation="vertical"
+        tools:context=".key_lock">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="20"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:boxBackgroundMode="none"
+                android:hint=""
+                android:text="test"
+                android:layout_weight="10"
+                android:background="@null"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_button"
+                    android:drawableStart="@drawable/ic_lock_24"
+                    android:hint="Password"
+                    android:textStyle="bold"
+                    android:layout_weight="10"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/_30sdp"
+                android:visibility="invisible"
+                android:layout_weight="10"
+                android:text=""
+                android:id="@+id/passwordTV"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/check_password"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_30sdp"
+                android:gravity="center"
+                android:text="check" />
+
+            <Button
+                android:layout_margin="@dimen/_30sdp"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:id="@+id/finger_print_check"
+                android:text="finger" />
+
+            <Button
+                android:layout_margin="@dimen/_30sdp"
+                android:id="@+id/timer"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:text="timer"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</layout>

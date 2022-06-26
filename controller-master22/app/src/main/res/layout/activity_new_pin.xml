@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/main_color"
+    android:layout_gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".new_pin.NewPinActivity">
+
+    <TextView
+        android:text="Change pin"
+        android:gravity="center"
+        android:fontFamily="@font/main_font"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:textSize="@dimen/_25ssp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="new Pin"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="ــ ــ ــ ــ"
+        android:textSize="@dimen/_38ssp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="confirm new Pin"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="ــ ــ ــ ــ"
+        android:textSize="@dimen/_38ssp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_confirm_changed"
+        app:cornerRadius="@dimen/_10sdp"
+        android:text="confirm"
+        android:textSize="@dimen/_16ssp"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:backgroundTint="@color/black"
+        android:padding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

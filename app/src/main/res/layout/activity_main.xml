@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/main_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:fontFamily="@font/main_font"
+        android:gravity="center"
+        android:text="Parental control"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25ssp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="@dimen/_10sdp"
+        android:id="@+id/setting"
+        app:cardCornerRadius="@dimen/_30sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:src="@drawable/person"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_gravity="center_vertical"
+                android:foregroundGravity="center_vertical"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp" />
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:text="Ziad ahmed"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:text="ziad@gmail.com"
+                    android:textSize="@dimen/_14ssp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="10"
+                    android:ellipsize="end"
+                    />
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/setting_"
+                android:layout_marginStart="@dimen/_45sdp"
+                android:layout_gravity="center_vertical"
+                android:foregroundGravity="center_vertical"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp" />
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_70sdp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/_30sdp"
+            android:id="@+id/locked_app"
+            android:layout_marginEnd="@dimen/_50sdp"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp" >
+
+
+            <ImageView
+                android:src="@drawable/locked_app"
+                android:padding="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/_30sdp"
+            android:id="@+id/downtime"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp" >
+
+            <ImageView
+                android:src="@drawable/downtime"
+                android:padding="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20ssp"
+            android:text="Locked App"
+            android:layout_marginEnd="@dimen/_50sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20ssp"
+            android:text="Downtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_width="@dimen/_120sdp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:text="Logout"
+        android:onClick="logout"/>
+
+
+</LinearLayout>

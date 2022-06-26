@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/main_color"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".change_pin.ChangePinActivity">
+
+    <TextView
+        android:text="Change pin"
+        android:gravity="center"
+        android:fontFamily="@font/main_font"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:textSize="@dimen/_25ssp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="change ping"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="ــ ــ ــ ــ"
+        android:textSize="@dimen/_38ssp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/forget_pin"
+        android:text="forget pin?"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="new Pin"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="ــ ــ ــ ــ"
+        android:textSize="@dimen/_38ssp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="confirm new Pin"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="ــ ــ ــ ــ"
+        android:textSize="@dimen/_38ssp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_confirm_pin"
+        app:cornerRadius="@dimen/_10sdp"
+        android:text="Confirm"
+        android:backgroundTint="@color/black"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

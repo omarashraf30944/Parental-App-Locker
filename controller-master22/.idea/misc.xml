@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/Controllproject/app/src/main/res/drawable/ic_round_next.xml" value="0.2085" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/drawable/ic_round_person_24.xml" value="0.2085" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/drawable/main_color.xml" value="0.1935" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_account.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_change_pin.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_downtime.xml" value="0.3197060174552136" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_finger.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_info.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_locked_app.xml" value="0.28055555555555556" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_new_pin.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_pin.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_re_email.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_re_password.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_register.xml" value="0.28055555555555556" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_register_two.xml" value="0.28055555555555556" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_remove_finger.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_remove_finger_print.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_reset_email.xml" value="0.3435185185185185" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_reset_password.xml" value="0.3625" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_rest_pin.xml" value="0.33" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_setting.xml" value="0.33" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/activity_splash_screen.xml" value="0.28055555555555556" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/layout/list_locked.xml" value="0.28055555555555556" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2085" />
+        <entry key="..\:/projects/Controllproject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2085" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

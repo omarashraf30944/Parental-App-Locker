@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".down_time.DowntimeActivity"
+    android:background="@drawable/main_color"
+    >
+
+    <TextView
+        android:layout_marginTop="@dimen/_20ssp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/main_font"
+        android:textSize="@dimen/_25ssp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:gravity="center"
+        android:text="Down time"
+        android:id="@+id/down_time"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" "
+        android:id="@+id/time_et"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:inputType="number">
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+
+
+
+
+    <TextView
+
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:textSize="@dimen/_25ssp"
+        android:gravity="center"
+        android:text="Timer"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="@dimen/_5sdp"
+        android:id="@+id/timer"
+        android:padding="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_alarm_add_24"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp" />
+
+            <TextView
+                android:id="@+id/tv_hour"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_28ssp"
+                android:textColor="@color/black"
+                android:text="00"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_40sdp" />
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_28ssp"
+                android:textColor="@color/black"
+                android:text=":"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp" />
+
+            <TextView
+                android:id="@+id/tv_min"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_28ssp"
+                android:textColor="@color/black"
+                android:text="00"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_40sdp" />
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_28ssp"
+                android:textColor="@color/black"
+                android:text=":"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp" />
+            <TextView
+                android:id="@+id/tv_sec"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_28ssp"
+                android:textColor="@color/black"
+                android:text="00"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_40sdp" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/bu_limte"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_130sdp"
+        android:text="Limit Usage"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold">
+
+    </Button>
+
+</LinearLayout>

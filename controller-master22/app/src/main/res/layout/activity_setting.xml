@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/main_color"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting.SettingActivity">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:text="Setting"
+            android:fontFamily="@font/main_font"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+
+            android:textSize="@dimen/_25ssp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/setting_"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10ssp"
+            android:layout_width="@dimen/_30ssp"
+            android:layout_height="@dimen/_25ssp" />
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/account"
+        android:layout_margin="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" >
+
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:src="@drawable/setting"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp" />
+
+            <TextView
+                android:text="Account"
+                android:textColor="@color/black"
+                android:padding="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+       </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pin"
+        android:layout_margin="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:src="@drawable/pin_code"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp" />
+
+            <TextView
+                android:text="Pin"
+                android:textColor="@color/black"
+                android:padding="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+       </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/finger"
+        android:layout_margin="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:src="@drawable/setting_finger"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp" />
+
+            <TextView
+                android:text="finger Print"
+                android:textColor="@color/black"
+                android:padding="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/help"
+        android:layout_margin="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/help"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp" />
+
+            <TextView
+                android:text="Help"
+                android:textColor="@color/black"
+                android:padding="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/about"
+        android:layout_margin="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:src="@drawable/info"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp" />
+
+            <TextView
+                android:text="About"
+                android:textColor="@color/black"
+                android:padding="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="@dimen/_25ssp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textStyle="bold"
+        android:src="@drawable/splahs"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp" />
+    
+    
+
+</LinearLayout>
